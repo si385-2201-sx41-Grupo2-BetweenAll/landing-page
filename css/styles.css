@@ -1,114 +1,289 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .card {
-    height: 580px;
-    display: flex; /*para que este al costado*/
-    flex-wrap: nowrap;
-    overflow: hidden;
-    background-color: white;
-    flex-direction: row;
-    border-radius: 0px;
+  height: 580px;
+  display: flex; /*para que este al costado*/
+  flex-wrap: nowrap;
+  overflow: hidden;
+  background-color: white;
+  flex-direction: row;
+  border-radius: 0px;
 }
 
 .card .img_card img {
-    width: 90%;
-    background-size: cover;
-    margin: 12%;
-    border-radius: 15px;
+  width: 90%;
+  background-size: cover;
+  margin: 12%;
+  border-radius: 15px;
 }
 
 .card .content {
-    width: 80%;
-    height: 100%;
-    text-align: right;
-    margin-right: 120px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 150px;
-    font-family: "Poppins", sans-serif;
+  width: 80%;
+  height: 100%;
+  text-align: right;
+  margin-right: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  font-family: "Poppins", sans-serif;
 }
 
 .card .content .title {
-    color: black;
-    padding: 20px;
-    font-size: 50px;
-    position: relative;
+  color: black;
+  padding: 20px;
+  font-size: 50px;
+  position: relative;
 }
 
 .card .content .text {
-    color: black;
-    font-size: 14px;
-    padding: 20px;
+  color: black;
+  font-size: 14px;
+  padding: 20px;
 }
 
 .card .content .btn_container button {
-    background-color: #a32de3;
-    padding: 5px 10px;
-    color: white;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    margin-right: 20px;
-    cursor: pointer;
-    width: 140px;
+  background-color: #a32de3;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 140px;
 }
 
 .card .content .btn_container button:hover {
-    background-color: black;
+  background-color: black;
 }
 
 .card .content .title .subrayado {
-    width: 280px;
-    height: 7px;
-    background-color: #a32de3;
-    position: absolute;
-    top: 80%;
-    right: 19px;
+  width: 280px;
+  height: 7px;
+  background-color: #a32de3;
+  position: absolute;
+  top: 80%;
+  right: 19px;
 }
 
 .h5-inicio {
-    font-size: 24px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    width: 480px;
-    position: absolute;
-    left: -120px;
-    bottom: 550px;
+  font-size: 24px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  position: absolute;
+  left: -120px;
+  bottom: 550px;
 }
 
 .p-inicio {
-    font-size: 60px;
-    text-align: left;
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-    width: 900px;
-    position: absolute;
-    left: -120px;
-    bottom: 60px;
+  font-size: 60px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 900px;
+  position: absolute;
+  left: -120px;
+  bottom: 60px;
 }
 
 .button1 {
-    background-color: #a32de3;
-    padding: 5px 10px;
-    color: white;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    margin-right: 20px;
-    cursor: pointer;
-    width: 140px;
-    position: absolute;
-    left: -120px;
-    bottom: 250px;
+  background-color: #a32de3;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 140px;
+  position: absolute;
+  left: -120px;
+  bottom: 250px;
 }
 
 .button1:hover {
-    background-color: black;
+  background-color: black;
+}
+
+/* --- Fonts -- */
+
+.heading-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.heading-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.heading-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.body-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.body-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.small-button-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.large-button-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+/* --- Buttons --- */
+
+.small-button {
+  width: 150px;
+  height: 30px;
+  padding: 0px;
+}
+
+.large-button {
+  width: 343px;
+  height: 48px;
+  padding: 0px;
+}
+
+.button-1 {
+  background-color: #a32de3;
+  color: #fff;
+  border-color: #a32de3;
+}
+
+.button-2 {
+  background-color: #fff;
+  color: #a32de3;
+  border-color: #a32de3;
+  border-width: 2px;
+}
+
+/* --- Header --- */
+
+.logo-p-m {
+  padding-right: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar-p-m {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-item-p-m {
+  margin: 0px 15px;
+}
+
+/* --- Contactanos --- */
+
+.p-section-contactanos {
+  background: url("../image/auditorium.jpg");
+  background-attachment: unset;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 600px;
+}
+
+.field {
+  width: 30%;
+}
+
+.g-form {
+  display: grid;
+  grid-template-rows: 40% repeat(2, 10%) 1fr;
+  grid-template-columns: 35% 65%;
+  height: 600px;
+}
+
+.first-r-f-grid {
+  margin: 180px 10px 20px 30px;
+}
+
+.element-f-grid {
+  margin: 10px 10px 10px 30px;
+}
+
+.last-r-f-grid {
+  margin: 15px 10px 160px 30px;
+  resize: none;
+}
+
+.h5-f-grid {
+  margin-left: 90px;
+}
+
+.g-information {
+  display: grid;
+  grid-template-rows: 35% 40% 25%;
+  height: 600px;
+}
+
+.hr-inf {
+  width: 380px;
+  height: 10px !important;
+  background-color: #a32de3;
+  border: none;
+  opacity: 1;
+  margin-left: 30px;
+}
+
+.middle-r-i-grid {
+  margin: 0px 30px;
+  line-height: 3;
+}
+
+.last-r-i-grid {
+  margin: 30px;
+}
+
+.i-title {
+  margin: 50px 0px 0px 30px;
+}
+
+/* --- Footer --- */
+
+.bg-footer {
+  background-color: #e3e3e3;
 }
