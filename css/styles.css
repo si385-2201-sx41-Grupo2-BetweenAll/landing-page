@@ -287,3 +287,76 @@
 .bg-footer {
   background-color: #e3e3e3;
 }
+
+/*sección de nuestros servicios*/
+.conteiner{
+
+  position: relative;
+  background-image: url('../image/imglanding3.png');
+  width: 100%;
+  height: 91vh;
+  background-repeat: no-repeat;
+}
+
+.titulo{
+  position: absolute;
+  color: white;
+  top: 7%;
+  left: 32%;
+  font-family:'Poppins';
+  font-size: 310%;
+}
+
+.ImgCard{
+  width: 50%;
+}
+#linea{
+  width: 34.5%;
+  position: absolute;
+  top: 17%;
+  left: 32%;
+}
+
+.card1 {
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+.card2{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 27%;
+}
+.card3{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 51%;
+}
+.card4{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 75%;
+}
+
+.titulocard{
+  color: white;
+  font-family:'Poppins';
+  font-size: 240%;
+}
+.textcard{
+  color: white;
+  font-family:'Poppins';
+  font-size: 90%;
+}
