@@ -360,3 +360,80 @@
   font-family:'Poppins';
   font-size: 90%;
 }
+
+/*Se parte de nosotros*/
+.body_parte .texto_titulo_parte{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#linea_parte{
+  width: 40%;
+  position: absolute;
+  top: 14%;
+  left: 30%;
+  margin-bottom: 50px;
+  opacity: 100%;
+  background-color: #A32DE3;
+}
+
+.card_parte .texto_subtitulo_parte{
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.body_parte .group_card_parte{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.card_parte{
+  margin-top: 40px;
+  width: 100%;
+  border-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  top: 30%;
+}
+
+.card_parte .imagen_card_parte{
+  width: 160px;
+  height: 131px;
+  position: relative;
+}
+
+.body_parte{
+
+  align-items: center;
+  font-family: "Poppins",cursive;
+  color: black;
+  position: relative;
+}
+.card_parte .botoncitoparte{
+  background-color: #A32DE3;
+  padding: 5px 10px;
+  font-size: 20px;
+  color:white ;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 343px;
+  height: 48px;
+  font-family: "Poppins",cursive;
+}
+
+.card_parte .texto_contenido_parte{
+  width: 400px;
+  left: 21%;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
