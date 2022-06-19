@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center; /*ubicar en medio de la pantalla*/
+    justify-content: center;
+    min-height: 100vh; /*cuanto baja*/
+    background-color: black;
+}
+
+.card{
+    height: 580px;
+    display: flex; /*para que este al costado*/
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: white;
+    flex-direction: row;
+    border-radius: 0px;
+
+}
+
+.card .img_card img {
+    width: 90%;
+    background-size: cover;
+    margin: 12%;
+    border-radius: 15px;
+}
+
+.card .content {
+    width: 80%;
+    height: 100%;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card .content .title {
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+    position: relative;
+}
+
+.card .content .text {
+    color: black;
+    font-size: 14px;
+    padding: 20px;
+
+
+}
+
+.card .content .btn_container button{
+    background-color: #A32DE3;
+    padding: 5px 10px;
+    color:white ;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 140px;
+
+}
+
+.card .content .btn_container button:hover{
+    background-color: black;
+}
+
+button1:hover{
+    background-color: black;
+}
+
+.card .content .title .subrayado{
+    width: 280px;
+    height: 7px;
+    background-color: #A32DE3;
+    position: absolute;
+    top: 80%;
+    right: 19px;
+}
+
+h5 {
+    font-size: 24px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    position: absolute;
+    left: -120px;
+    bottom: 550px;
+
+}
+
+p{
+    font-size: 60px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 900px;
+    position: absolute;
+    left: -120px;
+    bottom: 60px;
+}
+
+button1{
+    background-color: #A32DE3;
+    padding: 5px 10px;
+    color:white ;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 140px;
+    position: absolute;
+    left: -120px;
+    bottom: 250px;
+}
