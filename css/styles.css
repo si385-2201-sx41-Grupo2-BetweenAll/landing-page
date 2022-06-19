@@ -1,20 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
-body{
-    display: flex;
-    align-items: center; /*ubicar en medio de la pantalla*/
-    justify-content: center;
-    min-height: 100vh; /*cuanto baja*/
-    background-color: black;
-}
-
-.card{
+.card {
     height: 580px;
     display: flex; /*para que este al costado*/
     flex-wrap: nowrap;
@@ -22,7 +13,6 @@ body{
     background-color: white;
     flex-direction: row;
     border-radius: 0px;
-
 }
 
 .card .img_card img {
@@ -40,8 +30,7 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 150px;
-    font-family: 'Poppins', sans-serif;
-
+    font-family: "Poppins", sans-serif;
 }
 
 .card .content .title {
@@ -55,41 +44,34 @@ body{
     color: black;
     font-size: 14px;
     padding: 20px;
-
-
 }
 
-.card .content .btn_container button{
-    background-color: #A32DE3;
+.card .content .btn_container button {
+    background-color: #a32de3;
     padding: 5px 10px;
-    color:white ;
+    color: white;
     border-radius: 10px;
     outline: none;
     border: none;
     margin-right: 20px;
     cursor: pointer;
     width: 140px;
-
 }
 
-.card .content .btn_container button:hover{
+.card .content .btn_container button:hover {
     background-color: black;
 }
 
-button1:hover{
-    background-color: black;
-}
-
-.card .content .title .subrayado{
+.card .content .title .subrayado {
     width: 280px;
     height: 7px;
-    background-color: #A32DE3;
+    background-color: #a32de3;
     position: absolute;
     top: 80%;
     right: 19px;
 }
 
-h5 {
+.h5-inicio {
     font-size: 24px;
     text-align: left;
     align-items: center;
@@ -98,10 +80,9 @@ h5 {
     position: absolute;
     left: -120px;
     bottom: 550px;
-
 }
 
-p{
+.p-inicio {
     font-size: 60px;
     text-align: left;
     align-items: center;
@@ -113,10 +94,10 @@ p{
     bottom: 60px;
 }
 
-button1{
-    background-color: #A32DE3;
+.button1 {
+    background-color: #a32de3;
     padding: 5px 10px;
-    color:white ;
+    color: white;
     border-radius: 10px;
     outline: none;
     border: none;
@@ -126,4 +107,8 @@ button1{
     position: absolute;
     left: -120px;
     bottom: 250px;
+}
+
+.button1:hover {
+    background-color: black;
 }
