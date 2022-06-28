@@ -373,11 +373,10 @@
 }
 
 #linea {
-  width: 28%;
+  width: 35%;
   position: absolute;
   top: 15%;
   left: 35%;
-  opacity: 100%;
   opacity: 100%;
   background-color: #a32de3;
 }
@@ -670,7 +669,7 @@
 }
 
 #linea2 {
-  width: 25.5%;
+  width: 31.5%;
   position: absolute;
   top: 12%;
   left: 39.5%;
