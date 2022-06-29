@@ -76,7 +76,6 @@
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 150px;
-  font-family: "Poppins", sans-serif;
 }
 
 .card .content .title {
@@ -120,46 +119,38 @@
 /* --- Fonts -- */
 
 .heading-1 {
-  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: bold;
 }
 
 .heading-2 {
-  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: bold;
 }
 
 .heading-3 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: bold;
 }
 
 .body-1 {
-  font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
 
 .body-2 {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
 
 .body-3 {
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
 
 .small-button-font {
-  font-family: "Poppins", sans-serif;
   font-size: 15px;
   text-align: center;
 }
 
 .large-button-font {
-  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 900;
   text-align: center;
@@ -350,7 +341,7 @@
 
 /* --- Sección Nuestros Servicios ---  */
 
-.conteiner {
+.container-ns {
   position: relative;
   background-image: url("../image/imglanding3.png");
   width: 100%;
@@ -359,16 +350,15 @@
   background-size: cover;
 }
 
-.titulo {
+.titulo-ns {
   position: absolute;
   color: white;
   top: 7%;
   left: 35%;
-  font-family: "Poppins";
   font-size: 310%;
 }
 
-.ImgCard {
+.img-card-ns {
   width: 50%;
 }
 
@@ -417,26 +407,31 @@
   left: 75%;
 }
 
-.titulocard {
+.titulo-card-ns {
   color: white;
-  font-family: "Poppins";
   font-size: 240%;
 }
-.textcard {
+.text-card-ns {
   color: white;
-  font-family: "Poppins";
   font-size: 90%;
 }
 
 /* --- Sección Se parte de nosotros ---  */
 
-.body_parte .texto_titulo_parte {
+.body-spn {
+  align-items: center;
+  color: black;
+  position: relative;
+}
+
+.titulo-spn {
   font-size: 50px;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 30px;
 }
-#linea_parte {
+
+#linea-spn {
   width: 40%;
   position: absolute;
   top: 14%;
@@ -446,18 +441,19 @@
   background-color: #a32de3;
 }
 
-.card_parte .texto_subtitulo_parte {
+.subtitulo-spn {
   font-size: 36px;
   margin-top: 20px;
 }
 
-.body_parte .group_card_parte {
+.group-cards-spn {
   width: 100%;
   display: flex;
   align-items: center;
   position: relative;
 }
-.card_parte {
+
+.card-spn {
   margin-top: 40px;
   width: 100%;
   border-style: none;
@@ -468,19 +464,13 @@
   top: 30%;
 }
 
-.card_parte .imagen_card_parte {
+.img-card-spn {
   width: 160px;
   height: 131px;
   position: relative;
 }
 
-.body_parte {
-  align-items: center;
-  font-family: "Poppins", cursive;
-  color: black;
-  position: relative;
-}
-.card_parte .botoncitoparte {
+.button-spn {
   background-color: #a32de3;
   padding: 5px 10px;
   font-size: 20px;
@@ -492,10 +482,9 @@
   cursor: pointer;
   width: 343px;
   height: 48px;
-  font-family: "Poppins", cursive;
 }
 
-.card_parte .texto_contenido_parte {
+.contenido-spn {
   width: 400px;
   left: 21%;
   font-size: 15px;
@@ -507,14 +496,14 @@
 
 /* --- Sección Descargar --- */
 
-.tituloxd {
+.titulo-d {
   position: absolute;
   left: 20%;
   top: 10%;
   font-size: 80px;
 }
 
-.parrafo {
+.contenido-d {
   width: 611px;
   height: 109px;
   top: 40%;
@@ -525,7 +514,7 @@
   text-align: justify;
 }
 
-.btn_android {
+.btn-android {
   display: block;
   background-color: #a32de3;
   position: absolute;
@@ -539,12 +528,11 @@
   width: 300px;
   height: 50px;
   text-decoration: none;
-  font-family: "Poppins", cursive;
   top: 270%;
   color: white;
 }
 
-.btn_ios {
+.btn-ios {
   display: block;
   background-color: #a32de3;
   position: absolute;
@@ -558,12 +546,11 @@
   width: 300px;
   height: 50px;
   text-decoration: none;
-  font-family: "Poppins", cursive;
   top: 200%;
   color: white;
 }
 
-.imagelogo {
+.img-logo-d {
   position: absolute;
   width: 15%;
   height: 20%;
@@ -571,36 +558,35 @@
   top: 10%;
 }
 
-.imagenbet {
+.img-ba-d {
   height: 100%;
   position: absolute;
   left: 50%;
   width: 50%;
 }
 
-.container2 {
+.container-d {
   position: relative;
   height: 95vh;
 }
 
 /* --- Sección Nuestras Tarifas --- */
 
-.containerP {
+.container-nt {
   position: relative;
   height: 100vh;
   display: flex;
 }
 
-.tituloP {
+.titulo-nt {
   position: absolute;
   color: black;
   top: 6%;
   left: 40%;
-  font-family: "Poppins";
   font-size: 310%;
 }
 
-.cardP {
+.group-card-nt {
   width: 25%;
   height: 65%;
   border-radius: 2%;
@@ -611,45 +597,43 @@
   transition: all 0.25s;
 }
 
-.cardP:hover {
+.group-card-nt:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.cardSuperior {
+.card-sup-nt {
   height: 25%;
   background-color: #a32de3;
 }
 
-.cardInferior {
+.card-inf-nt {
   height: 50%;
   width: 80%;
   margin-top: 10%;
   margin-left: 10%;
 }
 
-.cardFinal {
+.card-final-nt {
   height: 20%;
   justify-content: center;
 }
 
-.textoSuperior {
+.text-sup-nt {
   padding-top: 10px;
   text-align: center;
   color: white;
   font-size: 30px;
-  font-family: "Poppins";
   margin-bottom: 0;
 }
 
-.textoPrecio {
+.text-precio-nt {
   text-align: center;
   color: white;
   font-size: 40px;
-  font-family: "Poppins";
 }
 
-.botonP {
+.button-nt {
   width: 40%;
   background-color: #a32de3;
   border-radius: 7px;
@@ -661,10 +645,9 @@
   padding: 5px 0px;
   font-size: 15px;
   cursor: pointer;
-  font-family: "Poppins", cursive;
 }
 
-.ulTarifa {
+.ul-nt {
   line-height: 2;
 }
 
