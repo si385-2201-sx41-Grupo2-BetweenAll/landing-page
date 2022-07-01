@@ -521,38 +521,23 @@
 
 .btn-android {
   display: block;
-  background-color: #a32de3;
   position: absolute;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 10px;
   outline: none;
-  border: none;
   cursor: pointer;
-  padding: 10px 20px;
-  width: 300px;
+  width: 150px;
   height: 50px;
-  text-decoration: none;
-  top: 270%;
-  color: white;
+  top: 200%;
 }
 
 .btn-ios {
   display: block;
-  background-color: #a32de3;
   position: absolute;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 10px;
   outline: none;
-  border: none;
   cursor: pointer;
-  padding: 10px 20px;
-  width: 300px;
+  width: 150px;
   height: 50px;
-  text-decoration: none;
   top: 200%;
-  color: white;
+  left: 27%;
 }
 
 .img-logo-d {
