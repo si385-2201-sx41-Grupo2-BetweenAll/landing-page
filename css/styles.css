@@ -432,13 +432,13 @@
 }
 
 #linea-spn {
-  width: 40%;
+  width: 44%;
   position: absolute;
-  top: 14%;
-  left: 30%;
+  top: 10%;
+  left: 28%;
   margin-bottom: 50px;
   opacity: 100%;
-  background-color: #a32de3;
+  background-color: #A32DE3;
 }
 
 .subtitulo-spn {
@@ -471,10 +471,10 @@
 }
 
 .button-spn {
-  background-color: #a32de3;
+  background-color: #A32DE3;
   padding: 5px 10px;
   font-size: 20px;
-  color: white;
+  color:white ;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -482,6 +482,11 @@
   cursor: pointer;
   width: 343px;
   height: 48px;
+  font-family: "Poppins",cursive;
+  left: 38%;
+  justify-items: center;
+  position: relative;
+  bottom: 25px;
 }
 
 .contenido-spn {
